@@ -73,7 +73,7 @@ INFO_TEXT = """
 ❍ ᴅᴄ ɪᴅ ▷ {}
 ❍ ʙɪᴏ ▷ {}
 
-❖ ᴍᴀᴅᴇ ʙʏ  ➛ [Ꝛɪsʜυ ₰](https://t.me/ur_rishu_143)
+❖ ᴍᴀᴅᴇ ʙʏ  ➛ [🦋⃟≛⃝ᴀʀᴀᴅʜʏᴀ](https://t.me/unbornedvillian)
 ▬▭▬▭▬▭▬▭▬▭▬▭▬▭
 
 """
