@@ -33,7 +33,7 @@ class Helper(object):
 ❍ /ask ➠ ǫυєʀɪєs ᴛʜє ᴧɪ ϻσᴅєʟ ᴛσ ɢєᴛ ᴧ ʀєsᴘσηsє ᴛσ ʏσυʀ ǫυєsᴛɪση
 
 
-❖ ϻᴧᴅє ʙʏ  ➠ [ʀɪsʜυ-ϻυsɪᴄ](https://t.me/ur_rishu_143) **
+❖ ϻᴧᴅє ʙʏ  ➠ [ᴢυєs-ϻυsɪᴄ](https://t.me/ll_BOTCHAMBER_ll) **
 '''
 
 
