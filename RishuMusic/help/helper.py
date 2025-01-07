@@ -398,7 +398,7 @@ class Helper(object):
 ϻєϻʙєʀs ɪη σηє ᴘʀσϻσᴛɪση ɢυʀᴧηᴛєє 
 ───────────────────────
 ❍ ᴄσηᴛᴧᴄᴛ - [ᴢᴇᴜꜱ](https://t.me/unbornedvillian)
-❍ ᴄσηᴛᴧᴄᴛ - [Ꝛᴧᴅʜє](https://t.me/ll_RADHE7_ll)
+❍ ᴄσηᴛᴧᴄᴛ - [ʀᴧᴅʜє](https://t.me/ll_RADHE7_ll)
 ───────────────────────**
 '''
     HELP_ALLBOT = '''
