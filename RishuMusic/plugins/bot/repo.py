@@ -7,11 +7,13 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """
-**⌾ ᴡᴇʟᴄᴏᴍᴇ ғᴏʀ Ꝛɪsʜυ ʀᴇᴘᴏs ⌾
+**⌾ ᴡᴇʟᴄᴏᴍᴇ ғᴏʀ ʀᴇᴘᴏs ⌾
  
-● ɪғ ʏᴏᴜ ᴡᴀɴᴛ ˹ ʀɪsʜᴜ ꭙ ᴍᴜsɪᴄ ♡゙゙
+● ɪғ ʏᴏᴜ ᴡᴀɴᴛ ˹🦋⃟≛⃝ᴀʀᴀᴅʜʏᴀꭙ ᴍᴜsɪᴄ ♡゙゙
 
-● ʙᴏᴛ ʀᴇᴘᴏ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʀᴇᴘᴏ ● **
+● ʙᴏᴛ ʀᴇᴘᴏ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʀᴇᴘᴏ ● 
+
+❖ ϻᴧᴅє ʙʏ  ➛ [ʙᴏᴛ ᴄʜᴀᴍʙᴇʀ](https://t.me/ll_botchamber_ll)**
 """
 
 
@@ -24,14 +26,14 @@ async def start(_, msg):
           InlineKeyboardButton("✙ ᴀᴅᴅ ᴍᴇ ✙", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("• ʜᴇʟᴘ •", url="https://t.me/rishu1286"),
-          InlineKeyboardButton("• ᴏᴡɴᴇʀ •", url="https://t.me/rishu1286"),
+          InlineKeyboardButton("• ʜᴇʟᴘ •", url="https://t.me/ll_botchamber_ll"),
+          InlineKeyboardButton("• ᴏᴡɴᴇʀ •", url="https://t.me/unbornedvillian"),
           ],
                [
-                InlineKeyboardButton("• ɴᴇᴛᴡᴏʀᴋ •", url=f"https://t.me/ur_rishu_143"),
+                InlineKeyboardButton("• ɴᴇᴛᴡᴏʀᴋ •", url=f"https://t.me/ll_botchamber_ll"),
 ],
 [
-InlineKeyboardButton("• ʀᴇᴘᴏ •", url=f"https://github.com/RishuBot/RishuManagement"),
+InlineKeyboardButton("• RADHE •", url=f"https://t.me/radhe_music_robot"),
 
         ]]
     
