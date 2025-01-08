@@ -10,16 +10,16 @@ start_txt = """
 **
 ┌┬─────────────────⦿
 │├─────────────────╮
-│├ ᴛɢ ɴᴀᴍᴇ - ʀɪsʜᴜ sᴀɴᴀᴛᴀɴɪ
-│├ ʀᴇᴀʟ ɴᴀᴍᴇ - ʀɪsʜᴜ ʀᴀᴊᴘᴜᴛ
+│├ᴛɢ ɴᴀᴍᴇ - ᴢᴇᴜꜱ ʙʟᴏᴏᴅʟɪɴᴇ 
+│├ʀᴇᴀʟ ɴᴀᴍᴇ - 🙂🖕
 │├─────────────────╯
 ├┼─────────────────⦿
-├┤~ @RishuNetwork
-├┤~ @Ur_rishu_143
-├┤~ @Vip_robotz
+├┤~ @ll_botchamber_ll
+├┤~ @unbornedvillian
+├┤~ @ll_radhe_ll
 ├┼─────────────────⦿
 │├─────────────────╮
-│├OWNER│ @Rishu1286
+│├OWNER│ @unbornedvillian
 │├─────────────────╯
 └┴─────────────────⦿
 **
@@ -32,17 +32,17 @@ start_txt = """
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("Ｒ I Տ ᕼ ᑌ ", url=f"https://t.me/Rishu1286")
+          InlineKeyboardButton(" 𝙕𝙀𝙐𝙎 ", url=f"https://t.me/unbornedvillian")
         ],
         [
-          InlineKeyboardButton("ＨＥＬＰ", url="https://t.me/rishu1286"),
-          InlineKeyboardButton("ＲＥＰＯ", url="https://github.com/RishuBot/RishuManagement"),
+          InlineKeyboardButton("ＨＥＬＰ", url="https://t.me/ll_botchamber_ll"),
+          InlineKeyboardButton("ＲＥＰＯ", url="https://github.com/Ansuman-web/ZEUSFAKEREPO.git"),
           ],
                [
-                InlineKeyboardButton(" ＮＥＴＷＯＲＫ", url=f"https://t.me/ur_rishu_143"),
+                InlineKeyboardButton(" ＮＥＴＷＯＲＫ", url=f"https://t.me/ll_botchamber_ll"),
 ],
 [
-InlineKeyboardButton("ＯＦＦＩＣＩＡＬ ＢＯＴ", url=f"https://t.me/vip_music_vc_bot"),
+InlineKeyboardButton("ＯＦＦＩＣＩＡＬ ＢＯＴ", url=f"https://t.me/zeus_music_robot"),
 
         ]]
     
