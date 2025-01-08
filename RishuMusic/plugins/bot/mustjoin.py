@@ -5,7 +5,7 @@ from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForb
 from RishuMusic import app
 
 # Channels to enforce join
-MUST_JOIN_1 = "Ur_Rishu_143"
+MUST_JOIN_1 = "ll_botchamber_ll"
 MUST_JOIN_2 = "nenobots"
 
 # List of random images
@@ -73,7 +73,7 @@ async def must_join_channels(app: Client, msg: Message):
             await app.get_chat_member(MUST_JOIN_1, msg.from_user.id)
         except UserNotParticipant:
             link1 = f"https://t.me/{MUST_JOIN_1}"
-            await send_join_message(msg, link1, "Ur_Rishu_143")
+            await send_join_message(msg, link1, "ll_botchamber_ll")
 
         try:
             await app.get_chat_member(MUST_JOIN_2, msg.from_user.id)
