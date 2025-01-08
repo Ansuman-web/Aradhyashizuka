@@ -38,12 +38,12 @@ async def join_watcher(_, message):
             msg = (
                 f"#𝗝𝗢𝗜𝗡_𝗡𝗘𝗪_𝗚𝗥𝗢𝗨𝗣\n\n"
                 f"⦿───────────────────⦿\n\n"
-                f"◎ ᴄʜᴀᴛ ɴᴀᴍᴇ ▸ {message.chat.title}\n"
-                f"◎ ᴄʜᴀᴛ ɪᴅ ▸ {message.chat.id}\n"
-                f"◎ ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ▸ @{message.chat.username}\n"
-                f"◎ ᴄʜᴀᴛ ʟɪɴᴋ ▸ [ᴄʟɪᴄᴋ]({link})\n"
-                f"◎ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ▸ {count}\n"
-                f"◎ ᴀᴅᴅᴇᴅ ʙʏ ▸ {message.from_user.mention}\n"
+                f" ᴄʜᴀᴛ ɴᴀᴍᴇ ▸ {message.chat.title}\n"
+                f" ᴄʜᴀᴛ ɪᴅ ▸ {message.chat.id}\n"
+                f" ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ▸ @{message.chat.username}\n"
+                f" ᴄʜᴀᴛ ʟɪɴᴋ ▸ [ᴄʟɪᴄᴋ]({link})\n"
+                f" ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ▸ {count}\n"
+                f" ᴀᴅᴅᴇᴅ ʙʏ ▸ {message.from_user.mention}\n"
 				f"⦿───────────────────⦿"
             )
             await app.send_photo(LOG_GROUP_ID, photo=random.choice(photo), caption=msg, reply_markup=InlineKeyboardMarkup([
