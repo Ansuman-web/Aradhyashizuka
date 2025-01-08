@@ -32,7 +32,7 @@ start_txt = """
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton(" 𝙕𝙀𝙐𝙎 ", url=f"https://t.me/unbornedvillian")
+          InlineKeyboardButton("ＺＥＵＳ", url=f"https://t.me/unbornedvillian")
         ],
         [
           InlineKeyboardButton("ＨＥＬＰ", url="https://t.me/ll_botchamber_ll"),
@@ -49,7 +49,7 @@ InlineKeyboardButton("ＯＦＦＩＣＩＡＬ ＢＯＴ", url=f"https://t.me/ze
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://envs.sh/oKU.jpg",
+        photo="https://graph.org/file/c4ad0958b5913fd3ccb3e-7de280b4c35397f60b.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
