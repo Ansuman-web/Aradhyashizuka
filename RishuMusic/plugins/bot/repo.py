@@ -7,13 +7,19 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """
-**⌾ ᴡᴇʟᴄᴏᴍᴇ ғᴏʀ ʀᴇᴘᴏs ⌾
- 
-● ɪғ ʏᴏᴜ ᴡᴀɴᴛ ˹🦋⃟≛⃝ᴀʀᴀᴅʜʏᴀꭙ ᴍᴜsɪᴄ ♡゙゙
+**𝙒𝙀𝙇 𝘾𝙊𝙈𝙀 𝙏𝙊 𝘼𝙍𝘼𝘿𝙃𝙔𝘼 𝙍𝙀𝙋𝙊
 
-● ʙᴏᴛ ʀᴇᴘᴏ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʀᴇᴘᴏ ● 
+𝘽𝙎𝘿𝙆 𝙍𝙀𝙋𝙊 𝙇𝙀𝙉𝘼 𝙃𝘼𝙄 𝙏𝙊𝙃 𝙉𝙄𝘾𝙃𝙀 𝙍𝙀𝙋𝙊 𝘽𝙐𝙏𝙏𝙊𝙉 𝙋𝙀 𝘾𝙇𝙄𝘾𝙆 𝙆𝘼𝙍𝙆𝙀 𝙇𝙀 𝙅𝘼.
 
-❖ ϻᴧᴅє ʙʏ  ➛ [ʙᴏᴛ ᴄʜᴀᴍʙᴇʀ](https://t.me/ll_botchamber_ll)**
+𝙇𝙄𝙁𝙀 𝙈𝘼𝙄𝙉 𝙆𝙐𝘾𝙃 𝙉𝘼𝙃𝙄 𝙆𝘼𝙍 𝙋𝘼𝙔𝙀𝙂𝘼 𝘽𝙎𝘿𝙆 𝘿𝙐𝙎𝙍𝙊 𝙆𝘼 𝘾𝙊𝙋𝙔 𝙆𝘼𝙍𝙆𝙀 .
+
+𝘾𝙃𝘼𝙇 𝙈𝘼𝘿𝘼𝙍𝘾𝙃𝙊𝘿 𝙇𝙀 𝙅𝘼𝘼 𝙍𝙀𝙋𝙊 
+
+𝙕𝙀𝙐𝙎 𝙏𝙀𝙍𝘼 𝙋𝘼𝙋𝘼 𝙃𝘼𝙄 𝙈𝘼𝘿𝘼𝙍𝘾𝙃𝙊𝘿 
+
+[𝙏𝙀𝙍𝙀 𝙋𝘼𝙋𝘼](https://t.me/unbornedvillian)
+
+𝙈𝘼𝘿𝙀 𝘽𝙔 ➛ [ʙᴏᴛ ᴄʜᴀᴍʙᴇʀ](https://t.me/ll_botchamber_ll)**
 """
 
 
@@ -33,14 +39,14 @@ async def start(_, msg):
                 InlineKeyboardButton("• ɴᴇᴛᴡᴏʀᴋ •", url=f"https://t.me/ll_botchamber_ll"),
 ],
 [
-InlineKeyboardButton("• RADHE •", url=f"https://t.me/radhe_music_robot"),
+InlineKeyboardButton("• ʀᴇᴘᴏ •", url=f"https://github.com/Ansuman-web/ZEUSFAKEREPO.git"),
 
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://envs.sh/oK4.jpg",
+        photo="https://graph.org/file/7575371e35d91363554ab-c01e8fa76f06533ff9.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
