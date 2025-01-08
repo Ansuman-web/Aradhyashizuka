@@ -13,7 +13,7 @@ from config import BANNED_USERS, OWNER_ID
 
 
 
-@app.on_message(filters.command(["addsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(5738579437))
+@app.on_message(filters.command(["addsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(7692605600))
 @language
 async def useradd(client, message: Message, _):
     if not message.reply_to_message:
@@ -30,7 +30,7 @@ async def useradd(client, message: Message, _):
         await message.reply_text(_["sudo_8"])
 
 
-@app.on_message(filters.command(["delsudo", "rmsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(5738579437))
+@app.on_message(filters.command(["delsudo", "rmsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(7692605600))
 @language
 async def userdel(client, message: Message, _):
     if not message.reply_to_message:
@@ -48,7 +48,7 @@ async def userdel(client, message: Message, _):
 
 
 
-@app.on_message(filters.command(["sudolist", "listsudo", "sudoers"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(5738579437))
+@app.on_message(filters.command(["sudolist", "listsudo", "sudoers"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(7692605600))
 async def sudoers_list(client, message: Message):
     keyboard = [[InlineKeyboardButton("๏ ᴠɪᴇᴡ sᴜᴅᴏʟɪsᴛ ๏", callback_data="check_sudo_list")]]
     reply_markups = InlineKeyboardMarkup(keyboard)
