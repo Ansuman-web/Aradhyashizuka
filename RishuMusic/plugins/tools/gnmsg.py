@@ -4,7 +4,7 @@ import random
 from RishuMusic import app
 
 
-@app.on_message(filters.command(["gn","n","oodnight","ood Night","ood night"], prefixes=["/","g","G"]))
+@app.on_message(filters.command(["gn","oodnight","ood Night","ood night"], prefixes=["/","g","G"]))
 def goodnight_command_handler(_, message):
     sender = message.from_user.mention
     send_sticker = random.choice([True, False])
